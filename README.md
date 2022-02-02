@@ -11,4 +11,5 @@ A tool for monitoring latency from a server
 
 ## Licences
 Creative Commons 4.0 BY-NC-ND
+
 Icons by [Icons8](https://icons8.com)
