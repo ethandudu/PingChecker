@@ -6,7 +6,8 @@ A tool for monitoring latency from a server
 
 
 ## 📝Demo
-![image](https://user-images.githubusercontent.com/41381482/152217610-02016e22-1761-43e0-aecb-ad2aa682a9f4.png)
+![image](https://user-images.githubusercontent.com/41381482/153867789-390e46c9-2460-4891-aa98-ae69193f5dce.png)
+
 
 
 ## Licences
