@@ -238,7 +238,6 @@ Partial Class Main
         '
         'SaveFileDialog1
         '
-        Me.SaveFileDialog1.CheckFileExists = True
         Me.SaveFileDialog1.DefaultExt = "csv"
         Me.SaveFileDialog1.Filter = "CSV File|*.csv"
         Me.SaveFileDialog1.RestoreDirectory = True

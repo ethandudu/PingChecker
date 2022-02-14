@@ -48,8 +48,11 @@
         Try
             Ping = SendPing.Send(UserDomain, 1000)
             ResponseTime = Ping.RoundtripTime
+            If Ping.Status = Net.NetworkInformation.IPStatus.TimedOut Then
+                ResponseTime = 1000
+            End If
         Catch ex As Exception
-            ResponseTime = 0
+            ResponseTime = 1000
         End Try
 
         If ResponseTime = 1000 Then
